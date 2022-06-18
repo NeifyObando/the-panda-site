@@ -82,3 +82,60 @@ h2{
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
 }
+
+/*Page 2*/
+.main-p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-p2--s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-p2--s1 img{
+    height: 400px;
+}
+.main-p2--s1 h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    width: 400px;
+}
+fieldset{
+    width: fit-content;
+    border-radius: 1cm;
+    background-color: black;
+}
+.name,
+.email,
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.checkbox,
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.subscribeNews{
+    display: flex;
+    align-items: center;
+}
+.button button{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    border-radius: 0.3cm;
+}
