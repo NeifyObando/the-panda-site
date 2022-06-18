@@ -7,7 +7,8 @@ body{
 
 .top-p1,
 .top-p2,
-.top-p3{
+.top-p3,
+.top-p4{
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -19,14 +20,16 @@ body{
 }
 .top-p1 ul,
 .top-p2 ul,
-.top-p3 ul{
+.top-p3 ul,
+.top-p4 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
 .top-p1 li,
 .top-p2 li,
-.top-p3 li{
+.top-p3 li,
+.top-p4 li{
     padding: 5px;
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
@@ -36,14 +39,18 @@ body{
 .top-p1 a,
 .welcome a,
 .top-p2 a,
-.top-p3 a,{
+.top-p3 a,
+.top-p4 a,
+.grid a{
     text-decoration: none;
     color: white;
 }
 .top-p1 a,
 .welcome a,
 .top-p2 a,
-.top-p3 a:visited{
+.top-p3 a,
+.top-p4 a,
+.grid a:visited{
     text-decoration: none; color:white;
 }
 h1,
@@ -183,4 +190,50 @@ fieldset{
 .main-p3-div a:visited{
     text-decoration: none;
     color: black;
+}
+/*PAGE 4*/
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.grid section{
+    margin: 5px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid img{
+    height: 300px;
+}
+.grid h2{
+    width: 350px;
+    background-color: black;
+    opacity: 80%;
+    color: red;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    border-radius: 0.3cm;
+}
+.separator{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    height: 10px;
+    background-color: black;
+}
+article div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 1cm;
+    padding: 20px;
+}
+article p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
